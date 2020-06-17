@@ -1,8 +1,8 @@
-import crel from "crelt"
-import {lift, joinUp, selectParentNode, wrapIn, setBlockType} from "prosemirror-commands"
-import {undo, redo} from "prosemirror-history"
+import crel from "/prosemirror/dist/crelt.es.js"
+import {lift, joinUp, selectParentNode, wrapIn, setBlockType} from "/prosemirror/dist/prosemirror-commands.es.js"
+import {undo, redo} from "/prosemirror/dist/prosemirror-history.es.js"
 
-import {getIcon} from "./icons"
+import {getIcon} from "./icons.js"
 
 const prefix = "ProseMirror-menu"
 

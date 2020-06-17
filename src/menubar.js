@@ -1,7 +1,7 @@
-import crel from "crelt"
-import {Plugin} from "prosemirror-state"
+import crel from "/prosemirror/dist/crelt.es.js"
+import {Plugin} from "/prosemirror/dist/prosemirror-state.es.js"
 
-import {renderGrouped} from "./menu"
+import {renderGrouped} from "./menu.js"
 
 const prefix = "ProseMirror-menubar"
 

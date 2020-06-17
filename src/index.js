@@ -1,6 +1,6 @@
 export {MenuItem, Dropdown, DropdownSubmenu, renderGrouped, icons, joinUpItem, liftItem, selectParentNodeItem,
-        undoItem, redoItem, wrapItem, blockTypeItem} from "./menu"
-export {menuBar} from "./menubar"
+        undoItem, redoItem, wrapItem, blockTypeItem} from "./menu.js"
+export {menuBar} from "./menubar.js"
 
 // !! This module defines a number of building blocks for ProseMirror
 // menus, along with a [menu bar](#menu.menuBar) implementation.
