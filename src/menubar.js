@@ -1,5 +1,5 @@
-import crel from "/prosemirror/dist/crelt.es.js"
-import {Plugin} from "/prosemirror/dist/prosemirror-state.es.js"
+import crel from "/prosemirror/devimports/crelt.es.js"
+import {Plugin} from "/prosemirror/devimports/prosemirror-state.es.js"
 
 import {renderGrouped} from "./menu.js"
 

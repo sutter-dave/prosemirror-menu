@@ -1,6 +1,6 @@
-import crel from "/prosemirror/dist/crelt.es.js"
-import {lift, joinUp, selectParentNode, wrapIn, setBlockType} from "/prosemirror/dist/prosemirror-commands.es.js"
-import {undo, redo} from "/prosemirror/dist/prosemirror-history.es.js"
+import crel from "/prosemirror/devimports/crelt.es.js"
+import {lift, joinUp, selectParentNode, wrapIn, setBlockType} from "/prosemirror/devimports/prosemirror-commands.es.js"
+import {undo, redo} from "/prosemirror/devimports/prosemirror-history.es.js"
 
 import {getIcon} from "./icons.js"
 
